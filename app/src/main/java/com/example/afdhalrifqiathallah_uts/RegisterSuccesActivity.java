@@ -30,6 +30,7 @@ public class RegisterSuccesActivity extends AppCompatActivity {
                 registersuccess.putExtra("email", email );
                 registersuccess.putExtra("password", password );
                 startActivity(registersuccess);
+                finishAffinity();
             }
         });
     }
